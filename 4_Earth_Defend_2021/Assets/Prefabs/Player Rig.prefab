@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2538049826030449745}
   m_LocalRotation: {x: 0.09736465, y: -0, z: -0, w: 0.9952488}
-  m_LocalPosition: {x: 0, y: 5.11, z: -25}
+  m_LocalPosition: {x: 0, y: 5.71, z: -24.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2538049826092659537}
@@ -142,6 +142,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2538049826092659537}
     m_Modifications:
+    - target: {fileID: 1737363563144962228, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737363563144962228, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2538049827107750724, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2538049827107750724, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 5525942487478031460}
+    - target: {fileID: 2538049827107750724, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 3439727012042232931}
     - target: {fileID: 8243548237327428646, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
       propertyPath: m_Name
       value: Player
@@ -190,10 +210,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8867606223650578611, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8867606223650578611, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
 --- !u!4 &6698074988717098399 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8244181992982892472, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+  m_PrefabInstance: {fileID: 3358946867051465255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5525942487478031460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7074441479491313219, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
+  m_PrefabInstance: {fileID: 3358946867051465255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3439727012042232931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 81413472613850692, guid: 1b913c852e495fe41ada20e8ea273597, type: 3}
   m_PrefabInstance: {fileID: 3358946867051465255}
   m_PrefabAsset: {fileID: 0}
