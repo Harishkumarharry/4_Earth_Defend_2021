@@ -1,16 +1,33 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision)
+    [SerializeField] float loadDelay = 1f;
+
+    [Tooltip("Add particle system which needs to play when player crashes")] [SerializeField] ParticleSystem crashParticle;
+
+    void OnTriggerEnter(Collider other)
     {
-        Debug.Log(this.name + " Collided with " + collision.gameObject.name);    
+        CrashSequence();
     }
 
-    private void OnTriggerEnter(Collider other)
+    void CrashSequence()
     {
-        Debug.Log($"{this.name} triggered with {other.gameObject.name}");
+        crashParticle.Play();
+        GetComponent<MeshRenderer>().enabled = false;
+        GetComponent<BoxCollider>().enabled = false;
+        GetComponent<PlayerContols>().enabled = false;
+        Invoke("ReloadLevel", loadDelay);
     }
+
+    void ReloadLevel()
+    {
+        int currentSceneLevel = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneLevel);
+    }
+
 }
