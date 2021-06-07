@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 7608164131702067525}
   - component: {fileID: 3381833343084312174}
   m_Layer: 0
-  m_Name: Silver Bird Enemy
+  m_Name: Ray Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,7 +283,7 @@ Transform:
   m_GameObject: {fileID: 7622280245749307129}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 158.34836, y: 113.12, z: 230.57312}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 7624343906683620829}
   m_Father: {fileID: 0}
@@ -354,5 +354,5 @@ MonoBehaviour:
   enemyDestroyVFX: {fileID: 4547102695893652503, guid: 4937fefea784ca548867462997798803, type: 3}
   enemyHitVFX: {fileID: 5366971724356606650, guid: 302911290b64e8e448cf9faa8f8bd577, type: 3}
   parent: {fileID: 0}
-  enemyScore: 50
-  hitPoint: 1
+  enemyScore: 100
+  hitPoint: 20
