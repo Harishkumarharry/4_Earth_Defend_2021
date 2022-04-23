@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!320 &934698218
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2255988609505040704}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 1e1499ca42f291741b4a575820ed50a2, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 409642578276112337, guid: 1e1499ca42f291741b4a575820ed50a2, type: 2}
+    value: {fileID: 2538049826092659538}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &2538049826030449745
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,6 +30,7 @@ GameObject:
   - component: {fileID: 2538049826030449748}
   - component: {fileID: 2538049826030449747}
   - component: {fileID: 2538049826030449746}
+  - component: {fileID: 4575292183955773463}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -26,7 +46,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2538049826030449745}
   m_LocalRotation: {x: 0.099059254, y: 0, z: 0, w: 0.99508154}
-  m_LocalPosition: {x: -0, y: 9.21, z: -26.18}
+  m_LocalPosition: {x: -0, y: 7.06, z: -21.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2538049826092659537}
@@ -83,6 +103,66 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2538049826030449745}
   m_Enabled: 1
+--- !u!114 &4575292183955773463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538049826030449745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 2538049826030449748}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 1
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &2538049826092659536
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,6 +234,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1937195731712892504, guid: d08b49e58bda78a48ac85457722cc772, type: 3}
+      propertyPath: xRange
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937195731712892504, guid: d08b49e58bda78a48ac85457722cc772, type: 3}
+      propertyPath: controlSpeed
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 3861663824821689284, guid: d08b49e58bda78a48ac85457722cc772, type: 3}
       propertyPath: m_Name
       value: Destroyer
@@ -208,6 +296,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d08b49e58bda78a48ac85457722cc772, type: 3}
+--- !u!1 &2255988609505040704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3861663824821689284, guid: d08b49e58bda78a48ac85457722cc772, type: 3}
+  m_PrefabInstance: {fileID: 3087643579256472196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2253062871931110264 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3863525286667239932, guid: d08b49e58bda78a48ac85457722cc772, type: 3}

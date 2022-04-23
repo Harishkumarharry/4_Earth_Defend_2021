@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 6988869022528913040}
   - component: {fileID: 6977904628057045560}
   - component: {fileID: 7419484249584601219}
+  - component: {fileID: -4578418847007147312}
   m_Layer: 0
   m_Name: Incognito Enemy
   m_TagString: Untagged
@@ -219,8 +220,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyDestroyVFX: {fileID: 4547102695893652503, guid: 4937fefea784ca548867462997798803, type: 3}
   enemyHitVFX: {fileID: 5366971724356606650, guid: 302911290b64e8e448cf9faa8f8bd577, type: 3}
+  parent: {fileID: 4718459456661368400, guid: 119e2baefe077ea4fbf9305b9b7f49ac, type: 3}
   enemyScore: 10
   hitPoint: 2
+--- !u!65 &-4578418847007147312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6954490255866214426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.1566553, y: 2.955462, z: 10.7425585}
+  m_Center: {x: 0, y: -0.000011980534, z: 0}
 --- !u!1 &6955327795944266632
 GameObject:
   m_ObjectHideFlags: 0

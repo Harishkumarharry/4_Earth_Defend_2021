@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16260 MB
+OS: 'Windows 10 Home Single Language; OS build 22598.1; Version 2009; 64bit' Language: 'en' Physical Memory: 16260 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/Unity/2021/4_Earth_Defend_2021/4_Earth_Defend_2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55006
+64404
 Successfully changed project path to: D:/Unity/2021/4_Earth_Defend_2021/4_Earth_Defend_2021
 D:/Unity/2021/4_Earth_Defend_2021/4_Earth_Defend_2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 155.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 158.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -30,442 +30,115 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   NVIDIA
     VRAM:     5980 MB
-    Driver:   27.21.14.6647
+    Driver:   30.0.15.1215
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005197 seconds.
+Registered in 0.001829 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 180.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 209.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.891 seconds
+- Completed reload, in  2.317 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003873 seconds.
+Registered in 0.001930 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.166 seconds
+- Completed reload, in  1.973 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2733 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.1 MB.
-System memory in use after: 194.3 MB.
+Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3219.
-Total: 3.943900 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.224200 ms MarkObjects: 3.163000 ms  DeleteObjects: 0.193900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3342.
+Total: 17.557900 ms (FindLiveObjects: 0.397800 ms CreateObjectMapping: 0.245000 ms MarkObjects: 16.720800 ms  DeleteObjects: 0.192300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SpaceShip.unity
-  artifactKey: Guid(d872939e833e75948ab72edf95cba0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SpaceShip.unity using Guid(d872939e833e75948ab72edf95cba0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059a8f0bfd4c2e5547bfeacfcb703d40') in 0.081290 seconds 
+  path: Assets/GlobalPP.asset
+  artifactKey: Guid(82ef0332067740d4b90630c262dc2ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GlobalPP.asset using Guid(82ef0332067740d4b90630c262dc2ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff2bef3603284d8e620c39e827af9b5') in 0.067603 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 214.411271 seconds.
-  path: Assets/Prefabs/Enemies/Silver Bird Enemy.prefab
-  artifactKey: Guid(c519b08b0cda96a4d8c0cd25fdf70579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Silver Bird Enemy.prefab using Guid(c519b08b0cda96a4d8c0cd25fdf70579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5783e0fdb026a1dcdc325b11b4f0722d') in 0.272884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.376835 seconds.
-  path: Assets/Prefabs/Enemies/Blue Bird Enemy.prefab
-  artifactKey: Guid(269b85c31cb989b4d933948bda65d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Blue Bird Enemy.prefab using Guid(269b85c31cb989b4d933948bda65d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f0f4ef4c93b148f03dbed5b1240f4b') in 0.059361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 100.977873 seconds.
-  path: Assets/Prefabs/Enemies/Blue Bird Enemy.prefab
-  artifactKey: Guid(269b85c31cb989b4d933948bda65d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Blue Bird Enemy.prefab using Guid(269b85c31cb989b4d933948bda65d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b3e95aed032820a5e4213fe1ba318c') in 0.033104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.025613 seconds.
-  path: Assets/Prefabs/Enemies/Green Viper Enemy.prefab
-  artifactKey: Guid(a343ad6d21b0def40ac664ef39e33d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Green Viper Enemy.prefab using Guid(a343ad6d21b0def40ac664ef39e33d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bf4f5b2160c10a4653bb29f1cbefc5') in 0.049724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.437684 seconds.
-  path: Assets/Prefabs/Enemies/Flash Enemy.prefab
-  artifactKey: Guid(1a452429ccaf0924e98a37f10e461d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Flash Enemy.prefab using Guid(1a452429ccaf0924e98a37f10e461d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170bdbb2d477af8db87be03efae4b916') in 0.040720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.033654 seconds.
-  path: Assets/Prefabs/Enemies/Ray Enemy.prefab
-  artifactKey: Guid(c519b08b0cda96a4d8c0cd25fdf70579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Ray Enemy.prefab using Guid(c519b08b0cda96a4d8c0cd25fdf70579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2120f1732892cd751a72adb17098bcf') in 0.060400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.383210 seconds.
-  path: Assets/Prefabs/Enemies/Ray Enemy.prefab
-  artifactKey: Guid(c519b08b0cda96a4d8c0cd25fdf70579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Ray Enemy.prefab using Guid(c519b08b0cda96a4d8c0cd25fdf70579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a3272ba65e6d04f24ae5ae63b45f54') in 0.051174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 93.226894 seconds.
-  path: Assets/Prefabs/Enemies/Incognito Enemy.prefab
-  artifactKey: Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Incognito Enemy.prefab using Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6c597910644e1cc93b8c2128df1a9e') in 0.226142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.832439 seconds.
-  path: Assets/Prefabs/Enemies/Incognito Enemy.prefab
-  artifactKey: Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Incognito Enemy.prefab using Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0e439f719378a8116692ebc1d63766') in 0.044672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.159910 seconds.
-  path: Assets/Prefabs/Enemies/Incognito Enemy.prefab
-  artifactKey: Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Incognito Enemy.prefab using Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b887724fee8800312741c1fee223977') in 0.033450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.684790 seconds.
-  path: Assets/Prefabs/Enemies/Incognito Enemy.prefab
-  artifactKey: Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Incognito Enemy.prefab using Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fc9793a6d3270519b91461fd999ac4') in 0.029863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.401188 seconds.
-  path: Assets/Scenes/Earth.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Earth.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfd4120a664642d80ff355483277ef0') in 0.014577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 140.338136 seconds.
-  path: Assets/Scripts/CollisionHandler.cs
-  artifactKey: Guid(e4318453ba8ed0b42b6057b97111eb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CollisionHandler.cs using Guid(e4318453ba8ed0b42b6057b97111eb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a53dddea9f9e6bb89438d6d1b19996') in 0.029620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 334.073322 seconds.
+  Time since last request: 0.717357 seconds.
   path: ProjectSettings/TagManager.asset
   artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.019221 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003485 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.743 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.1 MB.
-System memory in use after: 196.3 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3229.
-Total: 3.348000 ms (FindLiveObjects: 0.314100 ms CreateObjectMapping: 0.209400 ms MarkObjects: 2.687100 ms  DeleteObjects: 0.136000 ms)
-
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98720136fad134462255dae2889af3d6') in 0.043189 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 364.423732 seconds.
-  path: Assets/Prefabs/Enemies/Blue Bird Enemy.prefab
-  artifactKey: Guid(269b85c31cb989b4d933948bda65d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Blue Bird Enemy.prefab using Guid(269b85c31cb989b4d933948bda65d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28d7a38c94598cbb262903662e0be74') in 0.137966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Prefabs/Enemies/Flash Enemy.prefab
-  artifactKey: Guid(1a452429ccaf0924e98a37f10e461d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Flash Enemy.prefab using Guid(1a452429ccaf0924e98a37f10e461d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f19bab28c4dd14e2e8bddd233657e97') in 0.032901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/Prefabs/Enemies/Ray Enemy.prefab
-  artifactKey: Guid(c519b08b0cda96a4d8c0cd25fdf70579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Ray Enemy.prefab using Guid(c519b08b0cda96a4d8c0cd25fdf70579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b924a11764b3b4618596ae0d2fc8a6b7') in 0.043530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Prefabs/Enemies/Incognito Enemy.prefab
-  artifactKey: Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Incognito Enemy.prefab using Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2fa247495ba562b58348b1db71630e') in 0.030803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Prefabs/Enemies/Green Viper Enemy.prefab
-  artifactKey: Guid(a343ad6d21b0def40ac664ef39e33d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Green Viper Enemy.prefab using Guid(a343ad6d21b0def40ac664ef39e33d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60caddf73c5e2e224ed848cb7a396ac') in 0.039028 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004292 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.752 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.2 MB.
-System memory in use after: 196.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3233.
-Total: 3.405000 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.209900 ms MarkObjects: 2.723200 ms  DeleteObjects: 0.135900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2029.716729 seconds.
-  path: Assets/Timeline/Enemy Wave 1 Timeline.playable
-  artifactKey: Guid(16713e882c8fa074fafff933bf14260c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/Enemy Wave 1 Timeline.playable using Guid(16713e882c8fa074fafff933bf14260c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb042c9f567bb9747c45704c4732de35') in 0.051162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Timeline/Master Timeline.playable
-  artifactKey: Guid(b9b3633e4412e30418208c167dcd402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/Master Timeline.playable using Guid(b9b3633e4412e30418208c167dcd402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1594b6827609f59aa6658ee4ccc443e1') in 0.030971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 294.229675 seconds.
-  path: Assets/Timeline/Wave 1 Timeline.playable
-  artifactKey: Guid(c4aa11e6197819946bc40b8e675d00b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/Wave 1 Timeline.playable using Guid(c4aa11e6197819946bc40b8e675d00b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af395245e6eb0595ac8dff25286360c') in 0.011411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.032123 seconds.
-  path: Assets/Prefabs/Enemy Wave Timeline
-  artifactKey: Guid(c6f81853926ae3c45a25e569ad33b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Wave Timeline using Guid(c6f81853926ae3c45a25e569ad33b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791c4d15bc45d513b9d169db7db7bba8') in 0.012771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 634.914215 seconds.
-  path: Assets/Timeline/Master Timeline.playable
-  artifactKey: Guid(b9b3633e4412e30418208c167dcd402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/Master Timeline.playable using Guid(b9b3633e4412e30418208c167dcd402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefa6ca4f144645873481ff471a5bf9d') in 0.012416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Timeline/Wave 1 Timeline.playable
-  artifactKey: Guid(c4aa11e6197819946bc40b8e675d00b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/Wave 1 Timeline.playable using Guid(c4aa11e6197819946bc40b8e675d00b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a5943f1b03d5b937e36c15457047e3') in 0.006899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2755.019465 seconds.
-  path: Assets/Prefabs/Enemy Wave Timeline/Wave 1.prefab
-  artifactKey: Guid(3f49e8f99b78d1e45a1aa11a9a29253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Wave Timeline/Wave 1.prefab using Guid(3f49e8f99b78d1e45a1aa11a9a29253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bfd9b03b857bfcd5d6da2ee4b1f084') in 0.248092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.461662 seconds.
-  path: Assets/Prefabs/Enemy Wave Timeline/Wave 2.prefab
-  artifactKey: Guid(edd99fa967c3f4e4686dafbe7e06858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Wave Timeline/Wave 2.prefab using Guid(edd99fa967c3f4e4686dafbe7e06858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e1e751ca7d4568cae560df74dbaf79') in 0.048650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.719195 seconds.
-  path: Assets/Prefabs/Enemy Wave Timeline/Wave 3.prefab
-  artifactKey: Guid(a371fae2fbd6a7540a9467d5c1927d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Wave Timeline/Wave 3.prefab using Guid(a371fae2fbd6a7540a9467d5c1927d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757b2d0a81cc8bc7e6a515386139d28b') in 0.302937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.311166 seconds.
-  path: Assets/Prefabs/Enemy Wave Timeline/Wave 4.prefab
-  artifactKey: Guid(0f07dea303f8a7d40b28bae9e960ade6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Wave Timeline/Wave 4.prefab using Guid(0f07dea303f8a7d40b28bae9e960ade6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3314e222b88a766b571c83db0215837') in 0.044352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.870823 seconds.
-  path: Assets/Prefabs/Enemy Wave Timeline/Wave 5.prefab
-  artifactKey: Guid(4194c17b5ac573242850221a4e2610da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Wave Timeline/Wave 5.prefab using Guid(4194c17b5ac573242850221a4e2610da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f41a8fec6809eb47d7aa06126c1a3b') in 0.043556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.015916 seconds.
-  path: Assets/Prefabs/Wave
-  artifactKey: Guid(c6f81853926ae3c45a25e569ad33b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Wave using Guid(c6f81853926ae3c45a25e569ad33b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2b7ac8a7367bff55aaff3e5dec159f') in 0.010996 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003506 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.902 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.3 MB.
-System memory in use after: 196.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3237.
-Total: 3.599900 ms (FindLiveObjects: 0.366100 ms CreateObjectMapping: 0.207700 ms MarkObjects: 2.888400 ms  DeleteObjects: 0.135900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003721 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.721 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.3 MB.
-System memory in use after: 196.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3240.
-Total: 3.467100 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.218800 ms MarkObjects: 2.730600 ms  DeleteObjects: 0.147400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1021.032663 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
-  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4eec88fd3686471ef199049d84e065') in 0.168539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
-  artifactKey: Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd using Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f25cd16f8cbe5d0379ff196da8ba175') in 0.074060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.466331 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd
-  artifactKey: Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd using Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcded83ea21c30b05e7c39734ce18c28') in 0.092758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
-  artifactKey: Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp using Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67f413b08f852086b6e37369fcd655b') in 0.078037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp
-  artifactKey: Guid(58a059b07b093a745b47c2191525ddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp using Guid(58a059b07b093a745b47c2191525ddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f556ba3b0b9b7d023df892790da86c') in 0.059426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd
-  artifactKey: Guid(bfd675cc0db1d4656b75dc6d6ba91142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd using Guid(bfd675cc0db1d4656b75dc6d6ba91142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3554ed187972d38a83d15381eb7438e5') in 0.047777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
-  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad49961c22ec5edf8cb520a4953bd8b') in 0.048251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
-  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5dc4f322b43a04361cd222c8f0ef37') in 0.079110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 560.526969 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/CliffAlbedoSpecular.mat
-  artifactKey: Guid(cd29a38d9585c3a4983bd3352f1dca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/CliffAlbedoSpecular.mat using Guid(cd29a38d9585c3a4983bd3352f1dca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf48e3264e93edba9b47f73a6358b751') in 0.133884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/MudRockyAlbedoSpecular.mat
-  artifactKey: Guid(013d69d436a6ffe4db0ef087ad364f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/MudRockyAlbedoSpecular.mat using Guid(013d69d436a6ffe4db0ef087ad364f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b330aee46d0f7e0fd9dca8bfc9e3df50') in 0.027256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/SandAlbedo.mat
-  artifactKey: Guid(ac88ece422efa8d45909817af22aea4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPacks/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/SandAlbedo.mat using Guid(ac88ece422efa8d45909817af22aea4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e49bb5952b6a05e6c04bf52017ad857') in 0.429983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 69.622839 seconds.
-  path: Assets/Prefabs/Destroyer.prefab
-  artifactKey: Guid(d08b49e58bda78a48ac85457722cc772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Destroyer.prefab using Guid(d08b49e58bda78a48ac85457722cc772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9996309f0b8123e7d88ea0267fb0b3d4') in 0.080712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Prefabs/Laser Gun.prefab
-  artifactKey: Guid(1454516ab476a4e45a00cff6c3041d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Laser Gun.prefab using Guid(1454516ab476a4e45a00cff6c3041d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2049743dfd2d6d0da461444d06e24a35') in 0.016785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
+  Time since last request: 114.316159 seconds.
   path: Assets/Prefabs/Player Rig.prefab
   artifactKey: Guid(f776047df9126c5409665f658f492347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player Rig.prefab using Guid(f776047df9126c5409665f658f492347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8374cd37418563007f143ccacba8e508') in 0.044989 seconds 
+Start importing Assets/Prefabs/Player Rig.prefab using Guid(f776047df9126c5409665f658f492347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f64bab09e2d00bc9248eb678571b3c8') in 0.561223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.667014 seconds.
+  path: Assets/Prefabs/Post Processing.prefab
+  artifactKey: Guid(ef5c6b4b604cb0349a002af1ff4366ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Post Processing.prefab using Guid(ef5c6b4b604cb0349a002af1ff4366ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5cac6cda0545c60b586f9ab39c276a') in 0.009321 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003718 seconds.
+Registered in 0.005455 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.666 seconds
+- Completed reload, in  1.935 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.92 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2719 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.8 MB.
-System memory in use after: 204.0 MB.
+Unloading 2805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.9 MB.
+System memory in use after: 206.1 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3400.
-Total: 3.442700 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.213000 ms MarkObjects: 2.751900 ms  DeleteObjects: 0.135700 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3352.
+Total: 8.597500 ms (FindLiveObjects: 1.107600 ms CreateObjectMapping: 0.391100 ms MarkObjects: 6.943900 ms  DeleteObjects: 0.150600 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 441.692332 seconds.
-  path: Assets/Prefabs/Enemies/Incognito Enemy.prefab
-  artifactKey: Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Incognito Enemy.prefab using Guid(af7798f926a9f4449b217b99f9f267fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d49986fa3ece0437c3aa7d425ca4b9') in 0.151874 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\2021\4_Earth_Defend_2021\4_Earth_Defend_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.0 MB.
+System memory in use after: 206.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3355.
+Total: 2.178500 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.132100 ms MarkObjects: 1.720000 ms  DeleteObjects: 0.082700 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
